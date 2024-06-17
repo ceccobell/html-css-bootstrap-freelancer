@@ -16,10 +16,6 @@ header {
     height: 100px;
 }
 
-.height-200 {
-    height: 200px;
-}
-
 .content {
     width: 100%;
 }
@@ -54,4 +50,24 @@ header {
 
 .border-white {
     border: 1px solid white;
+}
+
+img {
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.icon:after, .icon:before {
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
 }
