@@ -12,12 +12,12 @@ header {
     height: 50px;
 }
 
-.height-100 {
-    height: 100px;
-}
-
 .content {
     width: 100%;
+}
+
+.border-white {
+    border: 1px solid white;
 }
 
 .darkgray {
@@ -40,20 +40,32 @@ header {
     background-color: #BA4B63;
 }
 
-.border-radius {
-    border-radius: 5px;
-}
-
 .lightblack {
     background-color: #3A546D;
 }
 
-.border-white {
-    border: 1px solid white;
+.lightazure {
+    background-color: #1FA4B6;
 }
 
-img {
+.black {
+    background-color: #130F0F;
+}
+
+.blue {
+    background-color: #1037B5;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+#jumbo img {
     width: 30%;
+}
+
+#portfolio img {
+    width: 100%;
 }
 
 ul {
@@ -69,5 +81,13 @@ li {
     width: 75px;
     height: 3px;
     background-color: white;
+    display: inline-block;
+}
+
+.icon-2:after, .icon-2:before {
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: black;
     display: inline-block;
 }
