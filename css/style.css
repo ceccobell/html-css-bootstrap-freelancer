@@ -103,3 +103,14 @@ li {
     background-color: #1ABC9C;
     border: none;
 }
+
+.top-footer a {
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
+.circle {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+}
