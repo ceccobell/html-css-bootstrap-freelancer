@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #2C3E50;
+}
+
 .height-50 {
     height: 50px;
 }
@@ -46,4 +50,8 @@
 
 .lightblack {
     background-color: #3A546D;
+}
+
+.border-white {
+    border: 1px solid white;
 }
