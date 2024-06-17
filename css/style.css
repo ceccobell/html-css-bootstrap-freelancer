@@ -91,3 +91,15 @@ li {
     background-color: black;
     display: inline-block;
 }
+
+.form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid gray;
+    padding: 0.375rem 0rem;
+}
+
+.btn-success {
+    background-color: #1ABC9C;
+    border: none;
+}
